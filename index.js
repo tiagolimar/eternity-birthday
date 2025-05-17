@@ -5,9 +5,9 @@ async function verify(){
     const result = await response.json();
 
     if (Array.isArray(result) && result.length === 0) {
-        console.log('Parece que não há aniversariantes hoje');
+        console.log('Parece que não há aniversariantes hoje 🍃🍃🍃');
     } else {
-        console.log('Aniversariantes do dia:', result.join(', '));
+        console.log('🎉🎉🎉 Aniversariantes do dia 🎉🎉🎉', result.join(', '));
     }
 }
 
